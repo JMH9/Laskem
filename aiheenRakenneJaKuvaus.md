@@ -1,4 +1,5 @@
 **Aihe**: Kemian sovellutuksiin käytettävä laskin. Toteutetaan laskin, joka osaa laskea peruslaskutoimituksien lisäksi laskea ennalta määriteltyjen kemiaan liittyvien kaavojen mukaisia laskutoimituksia annettujen parametrien avulla sekä osaa myös käsitellä reaktioyhtälöitä ja käyttää niitä laskutoimituksissa.
+
 Laskimeen tulisi pystyä talletamaan käytön ajaksi erinäisiä alkuaineiden ominaisuuksia, kuten moolimassa, joita laskin osaisi itsenäisesti käyttää laskutoimituksiin.
 
 
