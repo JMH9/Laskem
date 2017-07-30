@@ -2,7 +2,7 @@
 
 Jos laskinta pyydetään suorittamaan kaavan mukaista laskutoimitusta, johon sillä ei ole vaadittavia parametreja, tulee laskimen osata kommunikoida käyttäjän kanssa pyytäen puuttuvat parametrit.
 
-Laskimeen tulisi pystyä talletamaan käytön ajaksi erinäisiä alkuaineiden ominaisuuksia, kuten moolimassa, joita laskin osaisi itsenäisesti käyttää laskutoimituksiin.
+Laskimeen tulisi pystyä talletamaan käytön ajaksi erinäisiä alkuaineiden ominaisuuksia, kuten moolimassa, joita laskin osaisi käyttää laskutoimituksiin.
 
 
 **Käyttäjät**: Laskimen käyttäjä
