@@ -16,4 +16,4 @@ Laskimeen tulisi pystyä talletamaan käytön ajaksi erinäisiä alkuaineiden om
 - Reaktioyhtälön tasapainotus
 
 
-![Luokkakaavio](C:\Users\Juuso\Documents\PrintScreen Files\luokkakaavio68.png)
+
