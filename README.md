@@ -1,3 +1,1 @@
 # Laskem
-HAI
-:O

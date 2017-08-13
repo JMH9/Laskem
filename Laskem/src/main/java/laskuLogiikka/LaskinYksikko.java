@@ -1,11 +1,12 @@
+package laskuLogiikka;
 
-public class LaskinYksikko {
+
+import muistii.Muisti;
+
+
+public class LaskinYksikko { //sisältää kaikki laskimen tekemät laskutoimitukset metodeina
     
-    
-    public LaskinYksikko(){
-        
-    }
-    
+ 
     public double yhteenLasku(double a, double b, Muisti m){
         double c = a + b;
         m.talletaVali(c);
@@ -30,9 +31,4 @@ public class LaskinYksikko {
         return c;
     }
     
-    
-           
-    public void talletaMuistiin(Muisti m){
-        m.talletaVali(0);
-    }
 }

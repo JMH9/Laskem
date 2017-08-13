@@ -9,16 +9,38 @@ public class LaskinTest {
     public LaskinTest() {
     }
     
-    @BeforeClass
-    public static void setUpClass() {
+    
+    @Test
+    public void alussaValiMuistiTyhja() {
+        
+      
+    } 
+    
+    @Test
+    public void muistinTyhjennysToimii() {
+        
+      
     }
     
-    @AfterClass
-    public static void tearDownClass() {
-    }
-
+    
     @Test
-    public void alussaMuistiTyhja() {
+    public void symbolitAlussaTyhja() {
+        
+      
+    }
+    @Test
+    public void symbolitLisaysOnnistuu() {
+        
+      
+    }
+    @Test
+    public void symbolitVanhanPaivitysToimii() {
+        
+      
+    }
+    
+    @Test
+    public void symbolitVanhanPaivitysEiLisaaUutta() {
         
       
     }

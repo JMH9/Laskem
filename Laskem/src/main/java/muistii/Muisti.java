@@ -1,19 +1,41 @@
+package muistii;
+
 
 public class Muisti {
+
     private double viimeisin;
     private SymboliKirjasto symbolit;
-    private KaavaSymboliKirjasto kaavasy;
-    
-    public Muisti(){
+    private ReaktioYhtalo reaktio;
+
+    public Muisti() {
         this.symbolit = new SymboliKirjasto();
-        this.kaavasy = new KaavaSymboliKirjasto();
+
     }
-    
-    public void talletaVali(double vali){
+
+    public int lisaaReaktioYhtalo(String yhtalo) {
+        this.reaktio = new ReaktioYhtalo(yhtalo);
+        if (reaktio.tarkistaYhtalo() == 1) {
+            return 1;
+        } else {
+            reaktio = null; //jos yhtälö ei ole oikeassa muodossa, sitä ei tallenneta
+            return 0;
+        }
+    }
+
+    public ReaktioYhtalo haeReaktioYhtalo() {  
+        return reaktio;
+    }
+
+    public void talletaVali(double vali) { //viimeisimmän laskun tulos
         viimeisin = vali;
     }
+
+    public void talletaValiMuistiin(String osoite) { //tallettaa välimuistin arvon muistiin
+        symbolit.lisaaParametri(osoite, viimeisin);
+    }
     
-    public double palautaVali(){
+    public double palautaVali() { //palauttaa välimuistin arvon
         return viimeisin;
     }
+    
 }
